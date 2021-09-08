@@ -1,0 +1,136 @@
+/*font Variables*/  
+$font: 'Jost', sans-serif;
+$font2: 'Roboto', sans-serif;
+
+ 
+
+/*Color Variables*/ 
+$bc: rgb(238, 244, 251);
+$hover: rgb(114, 53, 254);
+$heding: #2652B8; 
+$heding2: #0345F3; 
+$heding3: #1E31A1; 
+$pfont: #6F7688;
+$pfont2:  #FE7235;
+$white: #ffffff;
+$title_color:#5A6172;
+$btn_color2:#09BC2D;
+
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+} 
+/* Button Style */
+.theme_btn {
+	color: #fff;
+	text-align: center;
+	font: 400 18px/1 "Jost", sans-serif;
+	display: inline-block;
+	padding: 18px 51px;
+	position: relative;
+	border-radius: 25px;
+	background-size: 200% auto;
+	background: $pfont2;
+	border-radius: 40px;
+	@include transition;
+    &:hover, &:focus{   
+		background-position: right center;
+        color: #fff;
+        background-color: rgb(114, 53, 254);
+    }
+}
+//btn2
+.line_btn2 {
+	background: $btn_color2;
+	border-radius: 4px;
+    border: 1px solid transparent;
+    &:hover, &:focus{   
+        color: $btn_color2;
+        background: transparent;
+        border: 1px solid $btn_color2;
+
+    }
+}
+    
+  
+
+//Tittle
+.title{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 20px;
+	h2{
+		color: $heding;
+        font: 600 42px/57px $font;
+        letter-spacing: -0.2;
+		padding-bottom: 15px;
+    }
+	p{
+		font: 400 16px/28px $font2;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+}
+//title_2
+.sub_title {
+    font:400 14px/57px $font2;
+    text-transform: uppercase;
+}
+.inner_title {
+    font: 600 22px/32px $font;
+}
+
+//Scroll to top
+.scroll-top{
+    position: fixed;
+    right: 30px;
+    bottom: 15px; 
+    height: 50px;
+    width: 50px; 
+    cursor: pointer;
+    background: $pfont2;
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+    color: #fff;  
+    i{
+        padding: 0;  
+        &:before{
+            speak: none;
+            display: block;
+            -webkit-font-smoothing: subpixel-antialiased; 
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden; 
+            animation: TopToBottom 0.3s forwards;
+        }
+    }
+    &:hover, &:focus{  
+        i:before{ 
+            animation: BottomToTop 0.3s forwards;
+        }
+    } 
+}
+/* Preloader */ 
+#preloader{
+    position:fixed;
+    left:0px; 
+    top:0px;
+    width:100%;
+    height:100%;
+    z-index:999999;
+    background:#fff url("../images/spinner.gif") no-repeat center;
+	display: flex;
+    align-items: center;
+    justify-content: center;  
+}

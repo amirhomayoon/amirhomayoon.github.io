@@ -1,0 +1,136 @@
+//header
+.full_wrapper {
+	overflow-x: hidden;
+}
+.home_3 {
+	background: $bc;
+}
+.main_header_area {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	padding: 37px 0;
+    .navbar {
+        padding: 0;
+        width: 100%;
+        .navbar_supported {
+            justify-content: flex-end;
+            -webkit-justify-content: flex-end;
+            -moz-justify-content: flex-end;
+            padding-right: 50px;
+            ul {
+                li {
+
+                    position: relative;
+                    a {
+                        color: $white;
+                        font: 400 16px/28px $font2;
+                        margin: 0 15px;
+                        display: block;
+                        &::after {
+                            display: none;
+                        }
+                        &::before {
+                            display: none;
+                        }
+                        &.nav-link  {
+                            padding: 0;
+                        }
+                        &:hover {
+                            color: $pfont2;
+                        }
+                        
+                    }
+                    
+                    &.dropdown {
+                        position: relative;
+                        padding: 0;
+                        &:after{
+                            content: "\f103";
+                            position: absolute;
+                            top: 0;
+                            right: 20px;
+                            font: normal normal normal 20px/48px FontAwesome;
+                            color: $pfont2;
+                        }
+                        .dropdown-menu {
+                            background: transparent;
+                            border: none;
+                            padding: 0;
+                            a {
+                                padding: 12px ;
+                                display: block;
+                            }
+                            @media (min-width: 991px) {
+                                position: absolute;
+                                opacity: 0;
+                                visibility: hidden;
+                                top: 0;
+                                transition: all 300ms ease-in;
+                                display: block;
+                                background: #2652b8;
+                                min-width: 200px;
+                                left: 0;
+                                border: none;
+                            }
+                        }
+                        @media (min-width: 991px) {
+                            &:after{
+                               display: none;
+                            }      
+                        }
+                    }
+                    &:hover .dropdown-menu {
+                        top: 40px;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                } 
+            }
+        }
+        .navbar-toggler {
+            i {
+                color: #fff;
+            }
+        }
+    }
+    &.navbar_fixed {
+        position: fixed;
+        background: linear-gradient(to right, #4282e8, #2652b8);
+        padding: 13px 0;
+        top: -70px;
+        transform: translateY(70px);
+        transition: transform 500ms ease ,background 200ms ease-out;
+        z-index: 999;
+    }
+    .right_nav {
+        li {
+            a {
+                background: $white;
+                color: $pfont2;
+                &:hover {
+                    background: rgb(114, 53, 254);
+                }
+            }
+        }
+    } 
+}
+
+//header
+.main_header_area {
+    .rightn_2 {
+        li {
+                 a {
+                     background: rgba(255, 255, 255, 0.11);
+                     color: $white;
+                     display: inline-block;
+                     &:hover {
+                         background: transparent;
+                     }
+                 }
+         }
+     } 
+}
+
+

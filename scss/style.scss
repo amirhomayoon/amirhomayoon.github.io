@@ -1,0 +1,76 @@
+/* ------------------------------------------------------
+@File: Default Styles
+@Template Name: Brido - Digital Marketing App
+@Author: Kitket
+@Developed By: Hasan Mahmud
+@Developer Mail: hasanlab1999@gmail.com
+@Developer URL: flatdesigner.net
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+------------------------------------------------------- */
+
+/* ====================================================== 
+
+Table of Content:
+01/ variables
+02/ prefix
+03/ animat
+04/ header
+05/ banner
+06/ feature
+07/ screen
+08/ testimonial
+09/ footer
+10/ responsive
+ 
+
+===================================================== */ 
+
+/*----------------------------------------------------*/
+@import "variables";
+/*----------------------------------------------------*/  
+@import "prefix";
+/*----------------------------------------------------*/  
+@import "animat";
+/*----------------------------------------------------*/ 
+@import "header";
+/*----------------------------------------------------*/ 
+@import "banner";
+/*----------------------------------------------------*/
+@import "feature";
+/*----------------------------------------------------*/
+@import "screen";
+/*----------------------------------------------------*/
+@import "testimonial";
+/*----------------------------------------------------*/
+@import "footer";
+/*----------------------------------------------------*/ 
+
+
+
+
+
+  
+@import "responsive";
+/*---------------------------------------------------- */  
+
+/*All CSS call*/ 
+@import "../css/bootstrap.min.css"; /* Bootstrap CSS */
+/* Icon CSS */
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css'); 
+@import "../css/font-awesome.min.css";  
+@import "../vendors/flat-icon/flaticon.css";
+/* Extra Plugins CSS */ 
+@import "../vendors/swiper-js/swiper.min.css"; 
+@import "../vendors/slick-slider/slick.css"; 
+@import "../vendors/animate-css/animate.css"; 
+@import "../vendors/aos-animate/aos.css"; 
+@import "../vendors/owl-carousel/owl.carousel.min.css";  
+@import "../vendors/magnify-popup/magnific-popup.css";  
+@import "../vendors/jquery-ui/jquery-ui.min.css"; 
+@import "../vendors/bootstrap-selector/nice-select.css"; 
+@import "../vendors/lightbox/simpleLightbox.css";     
+/* Font family link */ 
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');

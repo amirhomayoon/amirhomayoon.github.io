@@ -1,0 +1,581 @@
+// Extra Large devices (desktops, less than 1231px)
+@media (max-width: 1590px){ 
+
+}
+// Large devices (desktops, less than 1231px)
+@media (max-width: 1440px) { 
+    .banner_area {
+        padding: 284px 0 253px 0;
+    }
+    .banner_area {
+        padding: 190px 0 253px 0;
+    }
+    .why_chose_us .left_laptop {
+        margin-left: 0;
+    }
+    .left_laptop img {
+        max-width: 100%;
+    }
+    .our_feature.side_shape::before {
+       display: none;
+    }
+    .our_feature .bar_item .chart-two {
+        margin-left: 0;
+    }
+    .our_feature .author_desc .ilust-one {
+        left: 0;
+    }
+    .our_feature .author_desc .ilust-two {
+        left: 0;
+    }
+    .our_feature .author_desc .ilust-three {
+        margin-left: 0;
+    }
+    .app_support_devices .monitor-one {
+        margin-left: 0;
+    }
+    .baner_3::before {
+        display: none;
+    }
+    .feature_2 {
+        margin-top: -330px;
+    }
+    .app_dashbord .dashbord_img2 {
+        margin-left: 0;
+    }
+    .incredible_profit .pie_chart .chart-nine {
+        left: 0;
+    }
+    .incredible_profit .pie_chart .chart-bgnine {
+        margin-left: -44px;
+    }
+    .app_testimonial3 .client_say_area .client-img2 {
+        left: 0;
+    }
+    .app_testimonial3 .client_say_area .client-img {
+        left: 0;
+    }
+    .app_testimonial3 .client_say_area .client-img3 {
+        right: 0;
+    }
+    .app_testimonial3 .client_say_area .client-img4 {
+        right: 0;
+    }
+    .app_testimonial .indicators-img li .testimonial_text .designation {
+        margin-right: 0;
+    }
+}
+@media (max-width: 1199px) {
+    .main_header_area .navbar .navbar_supported {
+        padding-right: 0;
+    } 
+    .main_header_area .navbar .navbar_supported ul li a {
+        margin: 0 10px;
+    }
+	
+    .banner_area {
+        padding: 284px 0 221px 0;
+    }
+    .banner_area .banner_content h1 {
+        font-size: 48px;
+        line-height: 68px;
+    }
+    .banner_area .banner_content h6 {
+        margin-top: 40px;
+    }
+    .inner_title {
+        font: 600 20px/32px "Jost", sans-serif;
+    }
+    .app_feature .feature_box {
+        padding: 57px 50px 40px 50px;
+    }
+    .startup_business .secure_box .left_mockup {
+        padding-left: 0;
+    }
+    .startup_business .secure_box:last-child {
+        padding-bottom: 135px;
+    }
+    .price_plan .plan {
+        margin-left: 120px; 
+    }
+    .banner_area {
+        padding: 150px 0 200px 0;
+    }
+    .why_chose_us {
+        padding: 60px 0 45px 0;
+    }
+    .our_feature .feature_box2 {
+        padding-right: 0;
+    }
+    .our_feature .author_desc .ilust-three {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .app_support_devices .monitor-one {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .app_support_devices .support_text_wrapper {
+        padding: 0 30px 0 36px;
+    }
+    .banner_area {
+        padding: 150px 0 65px 0;
+    }
+    .baneer_2::before {
+       display: none;
+    }
+    .banner_desk {
+        max-width: 100%;
+    }
+    .feature_2 {
+        margin-top: 0;
+        padding-top: 50px;
+
+    }
+    .incredible_profit .pie_chart .chart-bgnine {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .incredible_profit .pie_chart .chart-nine {
+        left: 37px;
+        max-width: 75%;
+        top: 104px;
+    }
+    .app_testimonial {
+        padding: 40px 0 70px 0;
+    }
+    .indicators-img li:nth-child(2) {
+        display: none;
+    }
+    .indicators-img li:nth-child(4) {
+        display: none;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+	.header_area.navbar_fixed {
+        padding: 30px 0 0 0;
+    }
+    .right_nav {
+        position: absolute;
+        right: 80px;
+        top: 0;
+    }
+    .navbar_supported {
+        background: #2652b8;
+        border: 1px solid $white;
+        padding-right: 0;
+        z-index: 3;
+        margin-top: 15px;
+    } 
+    .main_header_area .navbar-nav li {
+        border-bottom: 1px solid #fff;
+        padding: 5px 0;
+        
+        &:last-child {
+            border-bottom: 0;
+        }
+        a {
+            width: 100%;
+        }
+        .dropdown-menu {
+            li {
+                border-top: 1px solid #fff; 
+               &:first-child, &:last-child {
+                    border-bottom: 0;
+                }
+                &:nth-child(2) {
+                    border-bottom: 0; 
+                }
+            }
+        }
+    }
+    .main_header_area .navbar .navbar_supported ul li a.nav-link {
+        padding: 5px 0;
+    }
+    .banner_area {
+        padding: 180px 0 180px 0;
+    }
+    .app_feature {
+        padding: 0 0 20px 0;
+    }
+    .title h2 {
+        font-size: 29px;
+        line-height: 50px;
+        padding-bottom: 0;
+    }
+    .banner_area {
+        padding: 160px 0 140px 0;
+    }
+    .chose_text_wrapper .title p {
+        text-align: left;
+        margin: 0;
+    }
+    .plan.plan2 {
+        margin: 0 auto;
+    }
+    .app_subscribe {
+        padding: 20px 0 20px 0;
+    }
+    .banner_area {
+        padding: 160px 0 65px 0;
+    }
+    .app_dashbord {
+        padding: 40px 0 40px 0;
+    }
+    .app_dashbord .dashbord_img2 {
+        margin-left: 0;
+        position: relative;
+        width: 100%;
+        right: 0;
+    }
+    .app_dashbord .dashbord_text .title p {
+        margin-bottom: 20px;
+        margin: 0;
+    }
+    
+    .dashbord-two {
+        max-width: 100%;
+    }
+    .our_feature .ft_box2 {
+        padding: 0 90px 0 0px;
+    }
+    .feature_2 {
+        padding-bottom: 30px;
+    }
+    .app_dashbord {
+        padding: 40px 0 0px 0;
+    }
+    .incredible_profit {
+        padding: 30px 0 30px 0;
+    }
+    .incredible_profit .pie_chart .chart-bgnine {
+        margin-left: 54px;
+        max-width: 80%;
+        margin-top: 48px;
+    }
+    .incredible_profit .pie_chart .chart-nine {
+        left: 75px;
+        max-width: 65%;
+        top: 138px;
+    }
+    .testimonial2 {
+        padding: 0px 0 30px 0;
+    }
+    .app_support_devices {
+        padding-bottom: 30px;
+    }
+    .price_plan {
+        padding: 30px 0 30px 0;
+    }
+    .app_testimonial3 {
+        padding: 40px 0 40px 0;
+    }
+    .app_testimonial3 .client_say_area {
+        margin-bottom: 40px;
+    }
+    .app_testimonial3 .detail_text {
+        padding: 10px 0px;
+    }
+    .app_client {
+        padding: 40px 0 60px 0;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+	.banner_area {
+        padding: 130px 0 260px 0;
+    }
+    .banner_area .banner_content h6 {
+        margin-top: 40px;
+    }
+    .price_plan .plan {
+        margin-left: 0;
+    }
+    .title h2 {
+        font-size: 29px;
+        line-height: 50px;
+        padding-bottom: 0;
+    }
+    .right_nav {
+       display: none;
+    }
+    .banner_area.baneer_2 {
+        padding: 130px 0 0px 0;
+    }
+    .baneer_2 .banner_chart {
+        display: none;
+    }
+    .why_chose_us {
+        padding: 20px 0 45px 0;
+    }
+    .our_feature .feature_row {
+        padding-bottom: 0;
+    }
+    .baner_3 {
+        padding: 160px 0 0px 0;
+    }
+    .incredible_profit .pie_chart .chart-nine {
+        left: 7%;
+        max-width: 75%;
+        top: 19%;
+    }
+    .client-img {
+        display: none;
+    }
+    .client-img2 {
+        display: none;
+    }
+    .client-img3 {
+        display: none;
+    }
+    .client-img4 {
+        display: none;
+    }
+    .fa_3 .footer_widget p {
+        padding-right: 0;
+    }
+    .app_screenshot {
+        padding: 30px 0  0px 0;
+    }
+    .app_testimonial {
+        padding: 40px 0 250px 0;
+    }
+    .testimonial2 {
+        padding: 30px 0 30px 0;
+    }
+    .app_testimonial .indicators-img li:nth-child(3) {
+        margin-top: 0;
+    }
+    .app_testimonial .indicators-img li:hover .testimonial_text, .app_testimonial .indicators-img li.active .testimonial_text {
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+        max-width: 400px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .our_feature {
+        padding-top: 0;
+    }
+    .fa_3::after {
+        display: none;
+    }
+} 
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+    .banner_area .banner_content h1 {
+        font-size: 33px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+    .banner_area {
+        padding: 130px 0 87px 0;
+    }
+    .our_feature {
+        padding-top: 0;
+    }
+    .our_feature .bar2 .chart-eight {
+        top: 25%;
+    }
+    .app_testimonial .indicators-img li:nth-child(3) {
+        margin-top: 0;
+    }
+    .app_dashbord .dashbord_img2 {
+        margin-left: 0;
+        margin-right: 0;
+        right: 0;
+    }
+    .app_screenshot .video_tutorial::before {
+        height: 524px;
+    }
+    .app_testimonial {
+        padding: 30px 0 70px 0;
+    }
+    .title h2 {
+        font-size: 21px;
+        line-height: 35px;
+        padding-bottom: 0;
+    }
+    .download_our_app {
+        padding: 0 0 30px 0;
+    }
+    .banner_area.baneer_2 {
+        padding: 130px 0 0 0;
+    }
+    .right_link.f-right {
+        display: none;
+    }
+    .download_our_app .doownload_bg .btn_list li {
+        margin: 10px 7px;
+    }
+    .fa_3 .footer_widget .social_list li {
+        margin: 0 0px;
+    }
+}
+
+// Extra small devices (portrait phones, less than 360px and 420px) 
+@media (max-width:420px){
+	.banner_area .banner_content h1 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 18px;
+    }
+    .banner_area {
+        padding: 130px 0 170px 0;
+    }
+    .title h2 {
+       font-size: 20px;
+       line-height: 30px;
+        padding-bottom: 3px;
+    }
+    .app_testimonial .indicators-img li:nth-child(3) {
+        margin-top: 0;
+    }
+    .secure_business {
+        padding: 75px 0 60px 0;
+    }
+    .secure_business .secure_list {
+        padding-top: 30px;
+    }
+    .app_dashbord .dashbord_img2 {
+        margin-left: 0;
+        margin-right: 0;
+        right: 0;
+    }
+    .app_screenshot .video_tutorial {
+        margin-top: 140px;
+    }
+    .app_screenshot .video_tutorial::before {
+        height: 464px;
+        top: -67px;
+    }
+    .download_our_app .doownload_bg .btn_list li {
+        margin: 6px 7px;
+    }
+    .our_feature .feature_box2 h3 {
+        font-size: 20px;
+        line-height: 30px;
+     }
+     .app_support_devices .support_text_wrapper h3 {
+         font-size: 20px;
+        line-height: 30px;
+     }
+}
+@media (max-width: 360px) {
+    .banner_area {
+        padding: 130px 0 88px 0;
+    }
+    .right_nav.rightn_2 {
+        display: none;
+    }
+    .banner_area .banner_content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .our_feature .ft_box2 {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .mockup {
+        max-width: 100%;
+    }
+    .mobile-bg1 {
+        max-width: 100%;
+    }
+    .mobile-bg2 {
+        max-width: 100%;
+    }
+    .mockup2 {
+        max-width: 100%;
+    }
+    .mobile-bg3 {
+        max-width: 100%;
+    }
+    .mobile-bg4 {
+        max-width: 100%;
+    }
+
+    .chart-one {
+        max-width: 100%;
+    }
+    .app_dashbord .dashbord_img2 {
+       display: none;
+    }
+    .our_feature .bar_item .chart-two {
+        max-width: 100%;
+    }
+    .startup_business {
+        padding: 20px 0 0 0;
+    }
+    .testimonial2 .testimonial-wrapbox .img-active {
+        width: 310px;
+        overflow: hidden;
+    }
+    .testimonial2 .testimonial-wrapbox .item-active {
+        padding: 43px 0 70px 0;
+    }
+    .testimonial2 .testimonial-wrapbox .item-active .testimonial-inner p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .price_plan .plan {
+        margin-left: 0;
+    }
+    .price_plan .plan .pr_body .plan_list li {
+        text-align: left;
+        padding-left: 125px;
+    }
+    .app_subscribe .subscribe_bg .input-group .input-group-text {
+        font-size: 17px;
+        line-height: 28px;
+        padding: 21px 20px;
+    }
+    .banner_area.banner_2 {
+        padding: 130px 0 0 0;
+    }
+    .baner_3 .banner_content3 p {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .feature_2 .feat_box2 {
+        padding: 50px 19px 50px 20px;
+    }
+    .our_feature .feature_box2 h3 {
+       font-size: 20px;
+       line-height: 30px;
+    }
+    .app_support_devices .support_text_wrapper h3 {
+        font-size: 20px;
+       line-height: 30px;
+    }
+    .app_testimonial3 .item {
+        padding: 126px 20px 20px;
+    }
+    .app_testimonial3 .item .inner_title {
+        margin-bottom: 60px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .app_testimonial3 .detail_text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .right_link.f-right {
+        display: none;
+    }
+    .app_support_devices {
+        padding-top: 100px;
+    }
+    .download_our_app .doownload_bg .btn_list li a {
+        font-size: 18px;
+    }
+    .fa_3 .subscribe_area2 {
+        padding: 0 15px 0 15px;
+    }
+    .fa_3::before {
+        display: none;
+    }
+}
