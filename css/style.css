@@ -3588,9 +3588,13 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   text-align: left !important;
 }
 .header_Descr{
-  color: rgb(255, 255, 255);
-  -webkit-text-stroke: 3px #2856bc;
-  -webkit-text-fill-color: white;
+  --stroke-color:#2856bc;
+  --stroke-width:1px;
+  color:white;
+  text-shadow: var(--stroke-width)  0 0 var(--stroke-color),
+    calc(var(--stroke-width) * -1) 0 0 var(--stroke-color),
+    0 var(--stroke-width) 0 var(--stroke-color),
+    0 calc(var(--stroke-width) * -1) 0 var(--stroke-color);
 
 
 }
