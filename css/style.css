@@ -659,7 +659,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 /*End of Zoom out Keyframes */
 .up_animat {
-  animation: float-bob-y infinite 2s linear;
+  animation: float-bob-y infinite 2.3s linear;
 }
 
 /*----------------------------------------------------*/
@@ -1983,6 +1983,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   top: 0;
   height: 737px;
 }
+
 .app_dashbord .dashbord_text .bord_box {
   margin-bottom: 25px;
 }
@@ -2005,7 +2006,11 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   text-align: right;
 }
 .app_dashbord .dashbord_text .title h2 {
+  font-size: 18px;
   color: #1e31a1;
+  margin: 0!important;
+  padding: 0 !important;
+  margin-bottom: -9px!important;
 }
 .app_dashbord .dashbord_text .title p {
   margin-bottom: 20px;
@@ -3574,6 +3579,11 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     display: none;
   }
 }
+.dirLeft{
+  direction: ltr;
+  text-align: left !important;
+}
+
 /*---------------------------------------------------- */
 /*All CSS call*/
 /* Bootstrap CSS */
