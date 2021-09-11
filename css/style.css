@@ -1971,7 +1971,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 
 .app_dashbord {
-  padding: 70px 0 150px 0;
+  padding: 5px 0 5px 0;
   background: #eef4fb;
   position: relative;
 }
@@ -2017,7 +2017,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 }
 
 .incredible_profit {
-  padding: 75px 0 75px 0;
+  padding: 15px 0 15px 0;
 }
 .incredible_profit .pie_chart {
   position: relative;
