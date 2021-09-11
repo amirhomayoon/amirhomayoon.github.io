@@ -3587,6 +3587,13 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   direction: ltr;
   text-align: left !important;
 }
+.header_Descr{
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 3px #2856bc;
+  -webkit-text-fill-color: white;
+
+
+}
 /*---------------------------------------------------- */
 /*All CSS call*/
 /* Bootstrap CSS */
